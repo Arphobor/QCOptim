@@ -1,0 +1,299 @@
+[
+  {
+    "NN_stats": {
+      "Saved_at": "2025.01.13: 15:42:41",
+      "N_updates_this_iteration": 50000,
+      "training_iteration": 0,
+      "iteration_starting_time": "2025.01.13: 09:56:58",
+      "current_success_rate": 0.965,
+      "total_training_steps": 50000,
+      "total_training_time_/hours": 5.762045342777778,
+      "fresh_start": true,
+      "previous_training_steps": 0,
+      "previous_training_time_/hours": 0,
+      "threshold_min_met_at": 4660,
+      "scaling_min_met_at": false,
+      "git_branch": "Bitwise_Prevactions",
+      "git_hash": "1c2b700ac3e802967b0645df522d6a40dbc72da3",
+      "goal": "Unrestricted, min threshold = 0.1",
+      "evaluation": "EDIT IN AFTER TRAINING DONE"
+    },
+    "Perftest": {
+      "current_time": "2025.01.13: 16:05:00",
+      "N_episodes": 1000,
+      "seperabilities": [
+        [
+          4,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "fidelity_mean": [
+        0.9575836478410447,
+        0.9638905476669963,
+        0.9641444111733597,
+        0.9793503727361219,
+        0.9991436120030167
+      ],
+      "fidelity_tol": [
+        0.06618324304158046,
+        0.07091080386506728,
+        0.06797642248318825,
+        0.06029534741605031,
+        0.03697242018790319
+      ],
+      "outlier_fraction": [
+        0.037,
+        0.026,
+        0.031,
+        0.063,
+        0.002
+      ],
+      "fid_mean_no_outlier": [
+        0.960907056398854,
+        0.9668241519072067,
+        0.9669809984199409,
+        0.9846963002574755,
+        0.9999999999994124
+      ],
+      "fid_tol_no_outlier": [
+        0.05867400407595495,
+        0.058584268569540965,
+        0.06065516470257842,
+        0.045301272315810714,
+        1.8200051726558417e-12
+      ],
+      "loss_mean": 0.02542141875397184,
+      "mean_N_cnot": [
+        4.827,
+        1.943,
+        1.148,
+        0.571,
+        0.026
+      ],
+      "tol_N_cnot": [
+        2.1740693566112372,
+        1.3950969571452732,
+        1.4007427287892662,
+        0.9810976473949982,
+        0.3779651344555473
+      ]
+    }
+  },
+  {
+    "NN_stats": {
+      "Saved_at": "2025.01.13: 22:02:29",
+      "N_updates_this_iteration": 50000,
+      "training_iteration": 1,
+      "iteration_starting_time": "2025.01.13: 16:35:39",
+      "current_success_rate": 0.985,
+      "total_training_steps": 100000,
+      "total_training_time_/hours": 11.209504662222223,
+      "fresh_start": false,
+      "previous_training_steps": 50000,
+      "previous_training_time_/hours": 5.762045342777778,
+      "threshold_min_met_at": 4660,
+      "scaling_min_met_at": 60000,
+      "git_branch": "Bitwise_Prevactions",
+      "git_hash": "1c2b700ac3e802967b0645df522d6a40dbc72da3",
+      "goal": "Unrestricted, min threshold = 0.1",
+      "evaluation": "EDIT IN AFTER TRAINING DONE"
+    },
+    "Perftest": {
+      "current_time": "2025.01.13: 22:17:35",
+      "N_episodes": 1000,
+      "seperabilities": [
+        [
+          4,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "fidelity_mean": [
+        0.9452150748816177,
+        0.9675049095810948,
+        0.9636431622060055,
+        0.9770938251963287,
+        0.9999999999994745
+      ],
+      "fidelity_tol": [
+        0.07567210604513289,
+        0.06326848525189768,
+        0.07673045713274199,
+        0.07267856966017691,
+        1.6617409464661642e-12
+      ],
+      "outlier_fraction": [
+        0.02,
+        0.053,
+        0.008,
+        0.023,
+        0.051
+      ],
+      "fid_mean_no_outlier": [
+        0.9475145113674317,
+        0.9720680783885834,
+        0.9652053585041658,
+        0.9799982386317541,
+        0.999999999999621
+      ],
+      "fid_tol_no_outlier": [
+        0.06782926123517098,
+        0.05203963393428767,
+        0.061468333906076464,
+        0.05433193478315038,
+        9.944331122711394e-13
+      ],
+      "loss_mean": 0.027333756479487756,
+      "mean_N_cnot": [
+        4.502,
+        1.967,
+        1.165,
+        0.534,
+        0.013
+      ],
+      "tol_N_cnot": [
+        1.802148954070112,
+        1.2756124825337827,
+        1.2639740708970255,
+        1.0208120344039837,
+        0.2615529290908439
+      ]
+    }
+  },
+  {
+    "NN_stats": {
+      "Saved_at": "2025.01.13: 22:02:29",
+      "N_updates_this_iteration": 50000,
+      "training_iteration": 1,
+      "iteration_starting_time": "2025.01.13: 16:35:39",
+      "current_success_rate": 0.985,
+      "total_training_steps": 100000,
+      "total_training_time_/hours": 11.209504662222223,
+      "fresh_start": false,
+      "previous_training_steps": 50000,
+      "previous_training_time_/hours": 5.762045342777778,
+      "threshold_min_met_at": 4660,
+      "scaling_min_met_at": 60000,
+      "git_branch": "Bitwise_Prevactions",
+      "git_hash": "1c2b700ac3e802967b0645df522d6a40dbc72da3",
+      "goal": "Unrestricted, min threshold = 0.1",
+      "evaluation": "EDIT IN AFTER TRAINING DONE"
+    },
+    "Perftest": {
+      "current_time": "2025.02.17: 15:29:40",
+      "N_episodes": 1000,
+      "seperabilities": [
+        [
+          4,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "fidelity_mean": [
+        0.9462210089675644,
+        0.965046329178066,
+        0.9653600951110067,
+        0.9767461467827698,
+        0.999999999999448
+      ],
+      "fidelity_tol": [
+        0.08300144923667323,
+        0.07039653881077168,
+        0.06515015434745286,
+        0.06579617484078079,
+        1.6365392478478105e-12
+      ],
+      "outlier_fraction": [
+        0.003,
+        0.002,
+        0.001,
+        0.001,
+        0.023
+      ],
+      "fid_mean_no_outlier": [
+        0.9474934491251268,
+        0.9657608209470782,
+        0.9654916484358012,
+        0.977223369994703,
+        0.9999999999995348
+      ],
+      "fid_tol_no_outlier": [
+        0.07031148091783572,
+        0.06274729121967304,
+        0.06469869037181117,
+        0.05921250526053506,
+        1.2092488919801821e-12
+      ],
+      "loss_mean": 0.02732042327924919,
+      "mean_N_cnot": [
+        4.537,
+        1.95,
+        1.193,
+        0.548,
+        0.013
+      ],
+      "tol_N_cnot": [
+        1.7578973006168475,
+        1.2976207019002124,
+        1.2610620888108561,
+        1.0258742894994493,
+        0.24727365956769431
+      ]
+    }
+  }
+]

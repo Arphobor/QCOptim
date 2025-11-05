@@ -1,0 +1,100 @@
+[
+  {
+    "NN_stats": {
+      "Saved_at": "2024.10.23: 03:17:34",
+      "N_updates_this_iteration": 99999,
+      "training_iteration": 0,
+      "iteration_starting_time": "2024.10.22: 12:00:51",
+      "current_success_rate": 0.895,
+      "total_training_steps": 99999,
+      "total_training_time_/hours": 15.278622714166666,
+      "fresh_start": true,
+      "previous_training_steps": 0,
+      "previous_training_time_/hours": 0,
+      "threshold_min_met_at": 29900,
+      "git_branch": "NoPrevaction",
+      "git_hash": "27b2ab709483b5de44bd6db535ae4d58364df6e4",
+      "goal": "Test if prevaction input is needed at all",
+      "evaluation": "EDIT IN AFTER TRAINING DONE"
+    },
+    "Perftest": {
+      "current_time": "2024.10.23: 11:43:17",
+      "N_episodes": 1000,
+      "seperabilities": [
+        [
+          4,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "fidelity_mean": [
+        0.9976396532622939,
+        0.9969467797023741,
+        0.9979716735039461,
+        0.9990418881574212,
+        0.9999999999994772
+      ],
+      "fidelity_tol": [
+        0.011197054654817885,
+        0.010840101795146932,
+        0.03121249294672003,
+        0.006354742676058267,
+        1.4670426831971451e-12
+      ],
+      "outlier_fraction": [
+        0.057,
+        0.069,
+        0.001,
+        0.059,
+        0.059
+      ],
+      "fid_mean_no_outlier": [
+        0.9988669646139383,
+        0.9981455998345172,
+        0.9984721772992706,
+        0.999807558740612,
+        0.9999999999996153
+      ],
+      "fid_tol_no_outlier": [
+        0.005200141250139486,
+        0.006824152618040611,
+        0.008071851275823726,
+        0.001954608590075136,
+        9.973984895440924e-13
+      ],
+      "loss_mean": 0.001610370813590675,
+      "mean_N_cnot": [
+        6.83,
+        2.852,
+        1.871,
+        0.965,
+        0.026
+      ],
+      "tol_N_cnot": [
+        2.3491788283568367,
+        1.3586130575907183,
+        0.9688012572886144,
+        0.9136382719107162,
+        0.4642352451764083
+      ]
+    }
+  }
+]

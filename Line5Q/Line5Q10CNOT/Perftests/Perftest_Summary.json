@@ -1,0 +1,115 @@
+[
+  {
+    "NN_stats": {
+      "Saved_at": "2025.03.20: 05:25:19",
+      "N_updates_this_iteration": 9999,
+      "training_iteration": 2,
+      "iteration_starting_time": "2025.03.19: 14:52:26",
+      "current_success_rate": 0.76,
+      "total_training_steps": 44998,
+      "total_training_time_/hours": 63.95946349916667,
+      "fresh_start": false,
+      "previous_training_steps": 34999,
+      "previous_training_time_/hours": 49.41138833666667,
+      "threshold_min_met_at": false,
+      "scaling_min_met_at": false,
+      "git_branch": "Bitwise_Prevactions",
+      "git_hash": "8dee911688f1f98348aafb42ea461ec6fe7ca9cd",
+      "goal": "Run 10CNOT 5Q Training from Fresh start as transfer learning didn't seem to work",
+      "evaluation": "EDIT IN AFTER TRAINING DONE"
+    },
+    "Perftest": {
+      "current_time": "2025.03.20: 15:08:33",
+      "N_episodes": 1000,
+      "seperabilities": [
+        [
+          5,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          1,
+          3
+        ],
+        [
+          1,
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "fidelity_mean": [
+        0.9734651230977254,
+        0.9899004037747271,
+        0.9800675353802112,
+        0.985431687246361,
+        0.9829107348360941,
+        0.9999999999759257
+      ],
+      "fidelity_tol": [
+        0.05379899535437769,
+        0.10969850326018475,
+        0.13998610055872737,
+        0.11386049057920457,
+        0.10599880842434081,
+        6.219789745227827e-10
+      ],
+      "outlier_fraction": [
+        0.001,
+        0.009,
+        0.025,
+        0.027,
+        0.021,
+        0.004
+      ],
+      "fid_mean_no_outlier": [
+        0.974299613477096,
+        0.9946437088943374,
+        0.9894615156175284,
+        0.9937105165740527,
+        0.989421062050426,
+        0.9999999999939398
+      ],
+      "fid_tol_no_outlier": [
+        0.019168095667461985,
+        0.03295037801831324,
+        0.06392186890505902,
+        0.04449187446175909,
+        0.04854460079417686,
+        1.174154229027133e-10
+      ],
+      "loss_mean": 0.012341192045723917,
+      "mean_N_cnot": [
+        10.0,
+        10.0,
+        9.99,
+        9.96,
+        7.691,
+        0.28
+      ],
+      "tol_N_cnot": [
+        0.0,
+        0.0,
+        0.6024286815881197,
+        1.1755555343751307,
+        7.977360067960076,
+        3.144380138850899
+      ]
+    }
+  }
+]

@@ -1,0 +1,115 @@
+[
+  {
+    "NN_stats": {
+      "Saved_at": "2025.04.09: 19:13:58",
+      "N_updates_this_iteration": 19999,
+      "training_iteration": 1,
+      "iteration_starting_time": "2025.04.07: 16:22:20",
+      "current_success_rate": 0.66,
+      "total_training_steps": 69999,
+      "total_training_time_/hours": 161.8997470611111,
+      "fresh_start": false,
+      "previous_training_steps": 50000,
+      "previous_training_time_/hours": 111.0391718825,
+      "threshold_min_met_at": false,
+      "scaling_min_met_at": false,
+      "git_branch": "git not found",
+      "git_hash": "git not found",
+      "goal": "Train 5Q agent on quito architecture for 6CNOT max",
+      "evaluation": "EDIT IN AFTER TRAINING DONE"
+    },
+    "Perftest": {
+      "current_time": "2025.04.20: 04:13:06",
+      "N_episodes": 1000,
+      "seperabilities": [
+        [
+          5,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          1,
+          3
+        ],
+        [
+          1,
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "fidelity_mean": [
+        0.7909657230919834,
+        0.8595083578967084,
+        0.8406093683321618,
+        0.8737249699178268,
+        0.9083751616004782,
+        0.9992266900133571
+      ],
+      "fidelity_tol": [
+        0.1631183134481365,
+        0.32489184449163044,
+        0.2500026907437186,
+        0.2606481691534921,
+        0.18754368714628897,
+        0.04658641152881603
+      ],
+      "outlier_fraction": [
+        0.026,
+        0.011,
+        0.015,
+        0.013,
+        0.014,
+        0.001
+      ],
+      "fid_mean_no_outlier": [
+        0.802438594728566,
+        0.8667247468542083,
+        0.8489093341990102,
+        0.8818993155687581,
+        0.9155584613280902,
+        0.999999999999296
+      ],
+      "fid_tol_no_outlier": [
+        0.07864354576377003,
+        0.2988864319397295,
+        0.2144784679591575,
+        0.22274252890867627,
+        0.14515528594489127,
+        1.958961452248731e-12
+      ],
+      "loss_mean": 0.09729241326357667,
+      "mean_N_cnot": [
+        6.0,
+        5.895,
+        5.034,
+        3.722,
+        0.757,
+        0.07
+      ],
+      "tol_N_cnot": [
+        0.0,
+        1.0192645756132213,
+        3.494194481362478,
+        4.667449599789589,
+        3.274744854646847,
+        1.052795451927866
+      ]
+    }
+  }
+]

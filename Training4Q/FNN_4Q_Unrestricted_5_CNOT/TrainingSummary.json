@@ -1,0 +1,102 @@
+{
+  "stats": {
+    "Saved_at": "2025.02.17: 13:54:19",
+    "N_updates_this_iteration": 9999,
+    "training_iteration": 1,
+    "iteration_starting_time": "2025.02.17: 11:41:41",
+    "current_success_rate": 0.97,
+    "total_training_steps": 34999,
+    "total_training_time_/hours": 6.983262933333333,
+    "fresh_start": false,
+    "previous_training_steps": 25000,
+    "previous_training_time_/hours": 4.772643225555555,
+    "threshold_min_met_at": false,
+    "scaling_min_met_at": false,
+    "git_branch": "Bitwise_Prevactions",
+    "git_hash": "5aa271394b9e81831d0984de7cf7c07e9ab53ec4",
+    "goal": "Four qubit nrestricted training starting from traning low threshold one to 0.1 threshold run with only retraining the last layer for now",
+    "evaluation": "EDIT IN AFTER TRAINING DONE"
+  },
+  "training": {
+    "ep_per_grad": 10,
+    "max_ep_length": 10,
+    "maxgradsteps": 10000,
+    "learningrateexp": -6.0,
+    "batchsize": 50,
+    "N_minibatches": 1,
+    "discount": 0.85,
+    "TD_step_number": 1,
+    "polyak_average_factor": 0.01,
+    "expl_prob_min": 0.05,
+    "prioritized_expl_prob": 0.1,
+    "N_priorit_expl": 4,
+    "buffersize": 20000,
+    "buffer_filling_steps": 500,
+    "expl_only_steps": 0,
+    "expl_learningrateexp": -3.0,
+    "use_perftest": true,
+    "perftestindex": 100,
+    "checkpointindex": 1000
+  },
+  "NN": {
+    "type": "Feedforward",
+    "layerwidth": 512,
+    "depth": 5,
+    "load_weights_from": "BestResults/FNN_4Q_6CNOT_Unrestricted/DQN_NN_3.keras",
+    "layers_to_copy": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "env": {
+    "CNOT_Connectivity": "Unrestricted",
+    "qubitnumber": 4,
+    "max_CNOT_Optim": 10,
+    "input_prev_action_key_scaling": 0.01,
+    "separable_state_probability": 0.5,
+    "threshold_min": 0.1,
+    "threshold_decay_factor": 1.0,
+    "thresholdcheck_step": 20,
+    "Succesratemin": 1.0,
+    "initial_loss_threshold": 0.1,
+    "thresholdcheck_dim": 200,
+    "scaling_factor_min": 0.01,
+    "scaling_decay_factor": 1.0,
+    "scaling_Succesratemin": 1.0,
+    "scalingcheck_step": 50,
+    "scaling_drop_delay_steps": 5000,
+    "scalingcheck_dim": 500,
+    "rho_dim": 16,
+    "max_CNOT_NN": 10,
+    "loss_threshold": 0.1,
+    "CNOT_connections_graph": [
+      [
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ]
+    ]
+  }
+}

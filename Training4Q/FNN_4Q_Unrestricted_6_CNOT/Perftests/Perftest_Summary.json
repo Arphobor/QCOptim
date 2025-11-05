@@ -1,0 +1,596 @@
+[
+  {
+    "NN_stats": {
+      "Saved_at": "2024.11.19: 11:07:24",
+      "N_updates_this_iteration": 99999,
+      "training_iteration": 1,
+      "iteration_starting_time": "2024.11.18: 17:59:13",
+      "current_success_rate": 0.965,
+      "total_training_steps": 199998,
+      "total_training_time_/hours": 34.69284165055556,
+      "fresh_start": false,
+      "previous_training_steps": 99999,
+      "previous_training_time_/hours": 17.55635328527778,
+      "threshold_min_met_at": 15840,
+      "scaling_min_met_at": 129499,
+      "git_branch": "Bitwise_Prevactions",
+      "git_hash": "4330647dbde66eac52ae0f6e6664339c83216b23",
+      "goal": "Train Binary Prevactions with input scaling so that hopefully everything works and I can get my perfect 4qubit agent now",
+      "evaluation": "EDIT IN AFTER TRAINING DONE"
+    },
+    "Perftest": {
+      "current_time": "2024.11.19: 18:19:00",
+      "N_episodes": 1000,
+      "seperabilities": [
+        [
+          4,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "fidelity_mean": [
+        0.9992552153467411,
+        0.9975254771436329,
+        0.9994239117962925,
+        0.999620502142537,
+        0.9992500000541867
+      ],
+      "fidelity_tol": [
+        0.01600494440536919,
+        0.045452603933340725,
+        0.004048957496949307,
+        0.003578751923037618,
+        0.04518214782110078
+      ],
+      "outlier_fraction": [
+        0.004,
+        0.003,
+        0.049,
+        0.036,
+        0.001
+      ],
+      "fid_mean_no_outlier": [
+        0.9996093872167959,
+        0.9985424701811617,
+        0.9998544509953932,
+        0.9999369798478716,
+        0.9999999999994416
+      ],
+      "fid_tol_no_outlier": [
+        0.0025235340712993076,
+        0.006739072241979286,
+        0.0012847920857128724,
+        0.000796828062824945,
+        1.6794418618821565e-12
+      ],
+      "loss_mean": 0.000823979727726347,
+      "mean_N_cnot": [
+        6.018,
+        3.182,
+        1.962,
+        0.989,
+        0.045
+      ],
+      "tol_N_cnot": [
+        0.3600070237314822,
+        1.7705047292611222,
+        0.9987076252918068,
+        0.8998237909968818,
+        0.6175410586349706
+      ]
+    }
+  },
+  {
+    "NN_stats": {
+      "Saved_at": "2024.11.20: 11:18:53",
+      "N_updates_this_iteration": 99999,
+      "training_iteration": 2,
+      "iteration_starting_time": "2024.11.19: 18:02:22",
+      "current_success_rate": 0.975,
+      "total_training_steps": 299997,
+      "total_training_time_/hours": 51.968204389444445,
+      "fresh_start": false,
+      "previous_training_steps": 199998,
+      "previous_training_time_/hours": 34.69284165055556,
+      "threshold_min_met_at": 15840,
+      "scaling_min_met_at": 224498,
+      "git_branch": "Bitwise_Prevactions",
+      "git_hash": "4330647dbde66eac52ae0f6e6664339c83216b23",
+      "goal": "Train Binary Prevactions with input scaling so that hopefully everything works and I can get my perfect 4qubit agent now",
+      "evaluation": "EDIT IN AFTER TRAINING DONE"
+    },
+    "Perftest": {
+      "current_time": "2024.11.20: 13:22:25",
+      "N_episodes": 1000,
+      "seperabilities": [
+        [
+          4,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "fidelity_mean": [
+        0.9986077004684014,
+        0.9982206819295039,
+        0.9990867276705543,
+        0.9996489885352582,
+        0.9995000000142626
+      ],
+      "fidelity_tol": [
+        0.04793262250507381,
+        0.007709156720882763,
+        0.006813278190452666,
+        0.003311296274496038,
+        0.0301214331874282
+      ],
+      "outlier_fraction": [
+        0.002,
+        0.061,
+        0.043,
+        0.034,
+        0.001
+      ],
+      "fid_mean_no_outlier": [
+        0.9994644974717825,
+        0.9990412322820699,
+        0.9996626823542247,
+        0.9999472381966882,
+        0.9999999999994563
+      ],
+      "fid_tol_no_outlier": [
+        0.0037586489330769094,
+        0.004122249649982474,
+        0.0024431798098697045,
+        0.0006501607113842613,
+        1.6308433952917912e-12
+      ],
+      "loss_mean": 0.0008580304121722571,
+      "mean_N_cnot": [
+        6.014,
+        2.96,
+        1.927,
+        0.965,
+        0.036
+      ],
+      "tol_N_cnot": [
+        0.29406806719533485,
+        1.4470544807988397,
+        1.1302933552649066,
+        0.6813116907113806,
+        0.4922648601555873
+      ]
+    }
+  },
+  {
+    "NN_stats": {
+      "Saved_at": "2024.11.20: 11:18:53",
+      "N_updates_this_iteration": 99999,
+      "training_iteration": 2,
+      "iteration_starting_time": "2024.11.19: 18:02:22",
+      "current_success_rate": 0.975,
+      "total_training_steps": 299997,
+      "total_training_time_/hours": 51.968204389444445,
+      "fresh_start": false,
+      "previous_training_steps": 199998,
+      "previous_training_time_/hours": 34.69284165055556,
+      "threshold_min_met_at": 15840,
+      "scaling_min_met_at": 224498,
+      "git_branch": "Bitwise_Prevactions",
+      "git_hash": "4330647dbde66eac52ae0f6e6664339c83216b23",
+      "goal": "Train Binary Prevactions with input scaling so that hopefully everything works and I can get my perfect 4qubit agent now",
+      "evaluation": "EDIT IN AFTER TRAINING DONE"
+    },
+    "Perftest": {
+      "current_time": "2025.01.21: 18:27:11",
+      "N_episodes": 1000,
+      "seperabilities": [
+        [
+          4,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "fidelity_mean": [
+        0.9992990208635727,
+        0.9981305231560916,
+        0.9985575318882571,
+        0.9996267457137332,
+        0.9999999999994754
+      ],
+      "fidelity_tol": [
+        0.0069938299525564305,
+        0.008679846867983525,
+        0.04288282062284666,
+        0.0034854533000958465,
+        1.6174470964793413e-12
+      ],
+      "outlier_fraction": [
+        0.016,
+        0.047,
+        0.002,
+        0.038,
+        0.056
+      ],
+      "fid_mean_no_outlier": [
+        0.9996453094029826,
+        0.9988799049990368,
+        0.9993276369230061,
+        0.9999498724095875,
+        0.9999999999996262
+      ],
+      "fid_tol_no_outlier": [
+        0.0018584018019368077,
+        0.004697730054887363,
+        0.004783533624264287,
+        0.00070670026144103,
+        9.7654053137327e-13
+      ],
+      "loss_mean": 0.0008066257778000589,
+      "mean_N_cnot": [
+        6.012,
+        2.944,
+        1.913,
+        0.976,
+        0.023
+      ],
+      "tol_N_cnot": [
+        0.3899435646551947,
+        1.4299624478649777,
+        0.82517033654634,
+        0.7465683026113551,
+        0.3834377469107599
+      ]
+    }
+  },
+  {
+    "NN_stats": {
+      "Saved_at": "2024.11.20: 11:18:53",
+      "N_updates_this_iteration": 99999,
+      "training_iteration": 2,
+      "iteration_starting_time": "2024.11.19: 18:02:22",
+      "current_success_rate": 0.975,
+      "total_training_steps": 299997,
+      "total_training_time_/hours": 51.968204389444445,
+      "fresh_start": false,
+      "previous_training_steps": 199998,
+      "previous_training_time_/hours": 34.69284165055556,
+      "threshold_min_met_at": 15840,
+      "scaling_min_met_at": 224498,
+      "git_branch": "Bitwise_Prevactions",
+      "git_hash": "4330647dbde66eac52ae0f6e6664339c83216b23",
+      "goal": "Train Binary Prevactions with input scaling so that hopefully everything works and I can get my perfect 4qubit agent now",
+      "evaluation": "EDIT IN AFTER TRAINING DONE"
+    },
+    "Perftest": {
+      "current_time": "2025.01.22: 16:30:44",
+      "N_episodes": 1000,
+      "seperabilities": [
+        [
+          4,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "fidelity_mean": [
+        0.9994075822686744,
+        0.9982612915637595,
+        0.9993724248854201,
+        0.9989677224705444,
+        0.9999999999994894
+      ],
+      "fidelity_tol": [
+        0.005840027077577974,
+        0.007286164410332461,
+        0.004260905736303547,
+        0.03638295830208517,
+        1.6434321555562792e-12
+      ],
+      "outlier_fraction": [
+        0.013,
+        0.06,
+        0.056,
+        0.001,
+        0.045
+      ],
+      "fid_mean_no_outlier": [
+        0.9996990545138906,
+        0.9990327503408875,
+        0.999864647413736,
+        0.9995681968851162,
+        0.9999999999996223
+      ],
+      "fid_tol_no_outlier": [
+        0.001475135330199902,
+        0.0041970842839057915,
+        0.0012446215454383768,
+        0.0038929111817169815,
+        1.047559060252673e-12
+      ],
+      "loss_mean": 0.0007469163493905262,
+      "mean_N_cnot": [
+        6.016,
+        2.965,
+        1.92,
+        0.985,
+        0.04
+      ],
+      "tol_N_cnot": [
+        0.36034995488275007,
+        1.443755684283182,
+        0.8931801529366848,
+        0.7546773243579007,
+        0.5128521486744497
+      ]
+    }
+  },
+  {
+    "NN_stats": {
+      "Saved_at": "2025.02.14: 17:10:26",
+      "N_updates_this_iteration": 6000,
+      "training_iteration": 3,
+      "iteration_starting_time": "2025.02.14: 15:52:55",
+      "current_success_rate": 0.97,
+      "total_training_steps": 305997,
+      "total_training_time_/hours": 53.260226404444445,
+      "fresh_start": false,
+      "previous_training_steps": 299997,
+      "previous_training_time_/hours": 51.968204389444445,
+      "threshold_min_met_at": 15840,
+      "scaling_min_met_at": 224498,
+      "git_branch": "Bitwise_Prevactions",
+      "git_hash": "9663fd877dcfa892b255ba7a90d2abf625e933da",
+      "goal": "Train Binary Prevactions with input scaling so that hopefully everything works and I can get my perfect 4qubit agent now",
+      "evaluation": "EDIT IN AFTER TRAINING DONE"
+    },
+    "Perftest": {
+      "current_time": "2025.05.06: 21:53:22",
+      "N_episodes": 10,
+      "seperabilities": [
+        [
+          4,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "fidelity_mean": [
+        0.9997871421799909,
+        0.999188171522808,
+        0.9999597397675839,
+        0.9999999999995233,
+        0.9999999999992333
+      ],
+      "fidelity_tol": [
+        0.0012165071100320945,
+        0.00464203522650467,
+        0.00023020800747657088,
+        1.0996680659347661e-12,
+        1.6499687516492818e-12
+      ],
+      "outlier_fraction": [
+        0.0,
+        0.1,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fid_mean_no_outlier": [
+        0.9997871421799909,
+        0.999999999998937,
+        0.9999597397675839,
+        0.9999999999995233,
+        0.9999999999992333
+      ],
+      "fid_tol_no_outlier": [
+        0.0012165071100320945,
+        2.9062249590553543e-12,
+        0.00023020800747657088,
+        1.0996680659347661e-12,
+        1.6499687516492818e-12
+      ],
+      "loss_mean": 0.00021192652013270248,
+      "mean_N_cnot": [
+        6.0,
+        3.2,
+        1.9,
+        1.3,
+        0.0
+      ],
+      "tol_N_cnot": [
+        0.0,
+        1.4263197958382263,
+        0.5718,
+        1.7154000000000003,
+        0.0
+      ]
+    }
+  },
+  {
+    "NN_stats": {
+      "Saved_at": "2025.02.14: 17:10:26",
+      "N_updates_this_iteration": 6000,
+      "training_iteration": 3,
+      "iteration_starting_time": "2025.02.14: 15:52:55",
+      "current_success_rate": 0.97,
+      "total_training_steps": 305997,
+      "total_training_time_/hours": 53.260226404444445,
+      "fresh_start": false,
+      "previous_training_steps": 299997,
+      "previous_training_time_/hours": 51.968204389444445,
+      "threshold_min_met_at": 15840,
+      "scaling_min_met_at": 224498,
+      "git_branch": "Bitwise_Prevactions",
+      "git_hash": "9663fd877dcfa892b255ba7a90d2abf625e933da",
+      "goal": "Train Binary Prevactions with input scaling so that hopefully everything works and I can get my perfect 4qubit agent now",
+      "evaluation": "EDIT IN AFTER TRAINING DONE"
+    },
+    "Perftest": {
+      "current_time": "2025.05.06: 22:17:30",
+      "N_episodes": 1000,
+      "seperabilities": [
+        [
+          4,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "fidelity_mean": [
+        0.9996430335600482,
+        0.9988017217072691,
+        0.9994888117830709,
+        0.9997223257237722,
+        0.9999999999994698
+      ],
+      "fidelity_tol": [
+        0.002243349678278025,
+        0.005369306597448678,
+        0.009235798855128192,
+        0.0024927659125240738,
+        1.5585450809761972e-12
+      ],
+      "outlier_fraction": [
+        0.028,
+        0.029,
+        0.003,
+        0.034,
+        0.019
+      ],
+      "fid_mean_no_outlier": [
+        0.9998155263808967,
+        0.999133710135557,
+        0.9996971353265139,
+        0.9999498131939616,
+        0.9999999999995359
+      ],
+      "fid_tol_no_outlier": [
+        0.0009070376259754541,
+        0.0038298679921904234,
+        0.0027274950054142423,
+        0.0006989936768608872,
+        1.2593533895896527e-12
+      ],
+      "loss_mean": 0.00046197247364940155,
+      "mean_N_cnot": [
+        6.005,
+        3.039,
+        1.972,
+        0.989,
+        0.047
+      ],
+      "tol_N_cnot": [
+        0.3130427304698194,
+        1.4683364316273024,
+        0.8378078780818429,
+        0.8283516347807857,
+        0.6228596866678723
+      ]
+    }
+  }
+]

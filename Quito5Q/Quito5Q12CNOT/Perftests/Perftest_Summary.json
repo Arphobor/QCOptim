@@ -1,0 +1,115 @@
+[
+  {
+    "NN_stats": {
+      "Saved_at": "2025.04.12: 15:15:13",
+      "N_updates_this_iteration": 50000,
+      "training_iteration": 1,
+      "iteration_starting_time": "2025.04.07: 16:17:08",
+      "current_success_rate": 0.655,
+      "total_training_steps": 100000,
+      "total_training_time_/hours": 241.46189610027778,
+      "fresh_start": false,
+      "previous_training_steps": 50000,
+      "previous_training_time_/hours": 122.4937390113889,
+      "threshold_min_met_at": false,
+      "scaling_min_met_at": false,
+      "git_branch": "Bitwise_Prevactions",
+      "git_hash": "df7b9b8ce6b70ba421f41fdd6aeee2a72d658fbf",
+      "goal": "Train on Quito with RyRz gate for local optimization only, i.e. no full U3. Still on 5 qubits limited to 12CNOT",
+      "evaluation": "EDIT IN AFTER TRAINING DONE"
+    },
+    "Perftest": {
+      "current_time": "2025.04.15: 08:31:26",
+      "N_episodes": 1000,
+      "seperabilities": [
+        [
+          5,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          1,
+          3
+        ],
+        [
+          1,
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "fidelity_mean": [
+        0.9962126337101961,
+        0.9984137427507911,
+        0.9861445103536071,
+        0.9965389070749158,
+        0.9955009574939213,
+        0.9999999999713477
+      ],
+      "fidelity_tol": [
+        0.005067902163021044,
+        0.054884537013988675,
+        0.13370303752271562,
+        0.07468972478511397,
+        0.06037968518388666,
+        1.0720079879964416e-09
+      ],
+      "outlier_fraction": [
+        0.014,
+        0.003,
+        0.022,
+        0.007,
+        0.008,
+        0.004
+      ],
+      "fid_mean_no_outlier": [
+        0.9963639845669979,
+        0.9996599068269548,
+        0.9949973535967861,
+        0.9995629120426679,
+        0.9975737416253704,
+        0.9999999999981231
+      ],
+      "fid_tol_no_outlier": [
+        0.004452700690774096,
+        0.006493144262003778,
+        0.04201014835006325,
+        0.007630544279647263,
+        0.016626428968108824,
+        4.287363983594852e-11
+      ],
+      "loss_mean": 0.0034943188476586414,
+      "mean_N_cnot": [
+        12.0,
+        12.0,
+        12.0,
+        11.87,
+        8.655,
+        0.229
+      ],
+      "tol_N_cnot": [
+        0.0,
+        0.0,
+        0.0,
+        1.9466410125136069,
+        9.452679167045712,
+        2.965382584983596
+      ]
+    }
+  }
+]

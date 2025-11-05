@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "Saved_at": "2025.03.04: 06:23:48",
+    "N_updates_this_iteration": 25000,
+    "training_iteration": 0,
+    "iteration_starting_time": "2025.03.03: 18:29:57",
+    "current_success_rate": 0.755,
+    "total_training_steps": 25000,
+    "total_training_time_/hours": 11.897653405555555,
+    "fresh_start": true,
+    "previous_training_steps": 0,
+    "previous_training_time_/hours": 0,
+    "threshold_min_met_at": false,
+    "scaling_min_met_at": false,
+    "git_branch": "Bitwise_Prevactions",
+    "git_hash": "28375882c0c53cb999d7bc3a28dd05a6519f3c69",
+    "goal": "Try to train to 6 qubits to compare results to those with loading from agent weights on 5 qubits",
+    "evaluation": "EDIT IN AFTER TRAINING DONE"
+  },
+  "training": {
+    "ep_per_grad": 10,
+    "max_ep_length": 12,
+    "maxgradsteps": 25001,
+    "learningrateexp": -4.0,
+    "batchsize": 50,
+    "N_minibatches": 1,
+    "discount": 0.9,
+    "TD_step_number": 1,
+    "polyak_average_factor": 0.01,
+    "expl_prob_min": 0.025,
+    "prioritized_expl_prob": 0.06,
+    "N_priorit_expl": 4,
+    "buffersize": 20000,
+    "buffer_filling_steps": 500,
+    "expl_only_steps": 200,
+    "expl_learningrateexp": -3.0,
+    "use_perftest": true,
+    "perftestindex": 250,
+    "checkpointindex": 1000
+  },
+  "NN": {
+    "type": "Feedforward",
+    "layerwidth": 512,
+    "depth": 5,
+    "load_weights_from": null,
+    "layers_to_copy": null
+  },
+  "env": {
+    "CNOT_Connectivity": "Line",
+    "qubitnumber": 5,
+    "max_CNOT_Optim": 6,
+    "input_prev_action_key_scaling": 1.0,
+    "separable_state_probability": 0.5,
+    "threshold_min": 0.01,
+    "threshold_decay_factor": 0.95,
+    "thresholdcheck_step": 20,
+    "Succesratemin": 0.8,
+    "initial_loss_threshold": 0.5,
+    "thresholdcheck_dim": 200,
+    "scaling_factor_min": 0.1,
+    "scaling_decay_factor": 0.9,
+    "scaling_Succesratemin": 0.85,
+    "scalingcheck_step": 50,
+    "scaling_drop_delay_steps": 5000,
+    "scalingcheck_dim": 500,
+    "rho_dim": 32,
+    "max_CNOT_NN": 12,
+    "loss_threshold": 0.19860715922910904,
+    "CNOT_connections_graph": [
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    ]
+  }
+}

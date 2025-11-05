@@ -1,0 +1,101 @@
+[
+  {
+    "NN_stats": {
+      "Saved_at": "2024.11.20: 20:17:58",
+      "N_updates_this_iteration": 49999,
+      "training_iteration": 0,
+      "iteration_starting_time": "2024.11.20: 14:47:45",
+      "current_success_rate": 0.865,
+      "total_training_steps": 49999,
+      "total_training_time_/hours": 5.503686706388889,
+      "fresh_start": true,
+      "previous_training_steps": 0,
+      "previous_training_time_/hours": 0,
+      "threshold_min_met_at": 24660,
+      "scaling_min_met_at": false,
+      "git_branch": "NoGlobalOptim",
+      "git_hash": "296f6e3740e2ad28aff3fe3da71399cff31d3119",
+      "goal": "Run Training without global optim for large MAXCNOT number to get results that dont have bunching at MAXCNOT due to cutoff",
+      "evaluation": "EDIT IN AFTER TRAINING DONE"
+    },
+    "Perftest": {
+      "current_time": "2024.11.21: 12:51:11",
+      "N_episodes": 1000,
+      "seperabilities": [
+        [
+          4,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "fidelity_mean": [
+        0.9929883949180928,
+        0.9962730032037727,
+        0.9975841783576634,
+        0.9996351413887904,
+        0.9989405348719941
+      ],
+      "fidelity_tol": [
+        0.006724688963976522,
+        0.0289271288812224,
+        0.041868233379971934,
+        0.003164318797245955,
+        0.04410551820723683
+      ],
+      "outlier_fraction": [
+        0.008,
+        0.002,
+        0.007,
+        0.042,
+        0.002
+      ],
+      "fid_mean_no_outlier": [
+        0.9931544287054642,
+        0.9969297517254939,
+        0.9993332632613838,
+        0.9999584975129344,
+        0.9999754588574256
+      ],
+      "fid_tol_no_outlier": [
+        0.005322377385134902,
+        0.0060996087275836455,
+        0.004271019328810803,
+        0.000625146876232495,
+        0.001209176816899931
+      ],
+      "loss_mean": 0.002679249108676065,
+      "mean_N_cnot": [
+        8.992,
+        4.759,
+        3.921,
+        2.826,
+        1.92
+      ],
+      "tol_N_cnot": [
+        2.9068443430111626,
+        3.178462310030434,
+        3.2651949630189008,
+        2.5154319011382515,
+        2.536913923963523
+      ]
+    }
+  }
+]

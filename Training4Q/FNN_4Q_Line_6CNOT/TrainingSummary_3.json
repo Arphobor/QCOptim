@@ -1,0 +1,96 @@
+{
+  "stats": {
+    "Saved_at": "2025.02.11: 00:07:15",
+    "N_updates_this_iteration": 50000,
+    "training_iteration": 3,
+    "iteration_starting_time": "2025.02.10: 18:30:20",
+    "current_success_rate": 0.98,
+    "total_training_steps": 200000,
+    "total_training_time_/hours": 25.40131292722222,
+    "fresh_start": false,
+    "previous_training_steps": 150000,
+    "previous_training_time_/hours": 19.78577287527778,
+    "threshold_min_met_at": 10560,
+    "scaling_min_met_at": 70000,
+    "git_branch": "Bitwise_Prevactions",
+    "git_hash": "401e00aad98d15ef685222f9c551120dedfe7eb2",
+    "goal": "good hyperparams on line",
+    "evaluation": "EDIT IN AFTER TRAINING DONE"
+  },
+  "training": {
+    "ep_per_grad": 10,
+    "max_ep_length": 10,
+    "maxgradsteps": 50001,
+    "learningrateexp": -5.0,
+    "batchsize": 50,
+    "N_minibatches": 1,
+    "discount": 0.85,
+    "TD_step_number": 1,
+    "polyak_average_factor": 0.01,
+    "expl_prob_min": 0.04,
+    "prioritized_expl_prob": 0.1,
+    "N_priorit_expl": 4,
+    "buffersize": 20000,
+    "buffer_filling_steps": 500,
+    "expl_only_steps": 0,
+    "expl_learningrateexp": -3.0,
+    "use_perftest": true,
+    "perftestindex": 200,
+    "checkpointindex": 1000
+  },
+  "NN": {
+    "type": "Feedforward",
+    "layerwidth": 512,
+    "depth": 5,
+    "load_weights_from": null,
+    "layers_to_copy": null
+  },
+  "env": {
+    "CNOT_Connectivity": "Line",
+    "qubitnumber": 4,
+    "max_CNOT_Optim": 10,
+    "input_prev_action_key_scaling": 0.1,
+    "separable_state_probability": 1.0,
+    "threshold_min": 0.005,
+    "threshold_decay_factor": 0.95,
+    "thresholdcheck_step": 20,
+    "Succesratemin": 0.8,
+    "initial_loss_threshold": 0.5,
+    "thresholdcheck_dim": 200,
+    "scaling_factor_min": 0.1,
+    "scaling_decay_factor": 0.9,
+    "scaling_Succesratemin": 0.9,
+    "scalingcheck_step": 2000,
+    "scaling_drop_delay_steps": 5000,
+    "scalingcheck_dim": 20000,
+    "rho_dim": 16,
+    "max_CNOT_NN": 10,
+    "loss_threshold": 0.005,
+    "CNOT_connections_graph": [
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    ]
+  }
+}

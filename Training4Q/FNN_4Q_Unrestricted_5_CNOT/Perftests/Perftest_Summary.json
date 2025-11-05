@@ -1,0 +1,200 @@
+[
+  {
+    "NN_stats": {
+      "Saved_at": "2025.02.15: 17:49:03",
+      "N_updates_this_iteration": 25000,
+      "training_iteration": 0,
+      "iteration_starting_time": "2025.02.15: 13:02:42",
+      "current_success_rate": 0.965,
+      "total_training_steps": 25000,
+      "total_training_time_/hours": 4.772643225555555,
+      "fresh_start": true,
+      "previous_training_steps": 0,
+      "previous_training_time_/hours": 0,
+      "threshold_min_met_at": false,
+      "scaling_min_met_at": false,
+      "git_branch": "Bitwise_Prevactions",
+      "git_hash": "5aa271394b9e81831d0984de7cf7c07e9ab53ec4",
+      "goal": "Four qubit nrestricted training starting from traning low threshold one to 0.1 threshold run with only retraining the last layer for now",
+      "evaluation": "EDIT IN AFTER TRAINING DONE"
+    },
+    "Perftest": {
+      "current_time": "2025.02.17: 11:40:16",
+      "N_episodes": 1000,
+      "seperabilities": [
+        [
+          4,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "fidelity_mean": [
+        0.9695162246900202,
+        0.9801779221861712,
+        0.981249091215755,
+        0.9853073770720072,
+        0.9999999999994171
+      ],
+      "fidelity_tol": [
+        0.04660722790546077,
+        0.0840475276370979,
+        0.06753592141463757,
+        0.06516321719025499,
+        1.8328385998057867e-12
+      ],
+      "outlier_fraction": [
+        0.012,
+        0.015,
+        0.009,
+        0.011,
+        0.014
+      ],
+      "fid_mean_no_outlier": [
+        0.9712407722242469,
+        0.9845813680165193,
+        0.9834405393459579,
+        0.9877813198017675,
+        0.9999999999994814
+      ],
+      "fid_tol_no_outlier": [
+        0.032949767804210967,
+        0.03784285697034178,
+        0.044954800219423344,
+        0.04264529600608167,
+        1.3975843104015971e-12
+      ],
+      "loss_mean": 0.015564795942002371,
+      "mean_N_cnot": [
+        4.955,
+        2.305,
+        1.475,
+        0.668,
+        0.012
+      ],
+      "tol_N_cnot": [
+        0.4858431013197572,
+        1.3094303231176525,
+        1.2343097656180153,
+        0.9862992916635397,
+        0.22435814140788385
+      ]
+    }
+  },
+  {
+    "NN_stats": {
+      "Saved_at": "2025.02.17: 13:54:19",
+      "N_updates_this_iteration": 9999,
+      "training_iteration": 1,
+      "iteration_starting_time": "2025.02.17: 11:41:41",
+      "current_success_rate": 0.97,
+      "total_training_steps": 34999,
+      "total_training_time_/hours": 6.983262933333333,
+      "fresh_start": false,
+      "previous_training_steps": 25000,
+      "previous_training_time_/hours": 4.772643225555555,
+      "threshold_min_met_at": false,
+      "scaling_min_met_at": false,
+      "git_branch": "Bitwise_Prevactions",
+      "git_hash": "5aa271394b9e81831d0984de7cf7c07e9ab53ec4",
+      "goal": "Four qubit nrestricted training starting from traning low threshold one to 0.1 threshold run with only retraining the last layer for now",
+      "evaluation": "EDIT IN AFTER TRAINING DONE"
+    },
+    "Perftest": {
+      "current_time": "2025.02.17: 14:44:04",
+      "N_episodes": 1000,
+      "seperabilities": [
+        [
+          4,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "fidelity_mean": [
+        0.967821404090748,
+        0.9770811789107415,
+        0.9732901542014188,
+        0.9805791380324753,
+        0.9996383259688093
+      ],
+      "fidelity_tol": [
+        0.0635605893070907,
+        0.07388367622398714,
+        0.06800709003405377,
+        0.08279291715199036,
+        0.02159326016595018
+      ],
+      "outlier_fraction": [
+        0.007,
+        0.009,
+        0.01,
+        0.007,
+        0.001
+      ],
+      "fid_mean_no_outlier": [
+        0.9696444210694487,
+        0.9795399469881438,
+        0.9750970703620102,
+        0.9829742341813739,
+        0.9999967480341203
+      ],
+      "fid_tol_no_outlier": [
+        0.03599129894358775,
+        0.0434656109877408,
+        0.053367037377902535,
+        0.05359185095152298,
+        0.00019580964296648165
+      ],
+      "loss_mean": 0.018918463911485706,
+      "mean_N_cnot": [
+        4.922,
+        2.165,
+        1.298,
+        0.62,
+        0.015
+      ],
+      "tol_N_cnot": [
+        0.6600266371715615,
+        1.2171194271311259,
+        1.3331049620551263,
+        0.99331679619344,
+        0.2747219829209159
+      ]
+    }
+  }
+]

@@ -1,0 +1,15 @@
+Set up env for code
+Install python 3.10 in conda env 
+$conda create -n ENV_NAME python=3.10.16
+Then install python packages with
+$pip install tensorflow==2.14.1 tensorflow-probability==0.22.1 qutip==4.7.6 matplotlib psutil numpy scipy pandas qiskit qiskit-ibm-runtime qiskit-aer qiskit-experiments
+
+Alternatively you should be able to use any other virtual python environment 
+with the same python version and pip install command
+
+Removing env: 
+$conda remove --name ENV_NAME --all
+
+
+#python 3.11 will cause a massive memory leak.
+#Newer tensorflow versions require keras 3 which doesn't work with older networks and seems to be 2x slower (due to different standard tracing settings?)

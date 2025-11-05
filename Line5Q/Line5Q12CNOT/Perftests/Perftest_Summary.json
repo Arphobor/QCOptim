@@ -1,0 +1,115 @@
+[
+  {
+    "NN_stats": {
+      "Saved_at": "2025.05.23: 19:16:57",
+      "N_updates_this_iteration": 28000,
+      "training_iteration": 2,
+      "iteration_starting_time": "2025.05.20: 22:30:28",
+      "current_success_rate": 0.825,
+      "total_training_steps": 78000,
+      "total_training_time_/hours": 195.3866809061111,
+      "fresh_start": false,
+      "previous_training_steps": 50000,
+      "previous_training_time_/hours": 126.61176578083332,
+      "threshold_min_met_at": 50240,
+      "scaling_min_met_at": false,
+      "git_branch": "Bitwise_Prevactions",
+      "git_hash": "8a76607356f4375b417acf4d4410a1282130b102",
+      "goal": "See if 12 CNOT manila agent can be improved over current version which has a lot of outliers",
+      "evaluation": "EDIT IN AFTER TRAINING DONE"
+    },
+    "Perftest": {
+      "current_time": "2025.05.23: 22:00:47",
+      "N_episodes": 1000,
+      "seperabilities": [
+        [
+          5,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          1,
+          3
+        ],
+        [
+          1,
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "fidelity_mean": [
+        0.9951195637925854,
+        0.9916571571305656,
+        0.9755570813856661,
+        0.9858420358161442,
+        0.9840610847581136,
+        0.999999999996575
+      ],
+      "fidelity_tol": [
+        0.01179744230640576,
+        0.1068242121424496,
+        0.15316751579716284,
+        0.11410564763520942,
+        0.12191421296282529,
+        1.6493856286323655e-10
+      ],
+      "outlier_fraction": [
+        0.016,
+        0.014,
+        0.027,
+        0.034,
+        0.028,
+        0.001
+      ],
+      "fid_mean_no_outlier": [
+        0.9956757463471934,
+        0.9975291930849955,
+        0.9855797498116393,
+        0.9961229098404284,
+        0.9927471719156022,
+        0.9999999999993127
+      ],
+      "fid_tol_no_outlier": [
+        0.006634541736703033,
+        0.02550313582039349,
+        0.08911991057688222,
+        0.040967132460336717,
+        0.053140252663361816,
+        2.0459194778228697e-12
+      ],
+      "loss_mean": 0.00862520708769048,
+      "mean_N_cnot": [
+        12.0,
+        12.0,
+        11.991,
+        11.977,
+        9.895,
+        0.192
+      ],
+      "tol_N_cnot": [
+        0.0,
+        0.0,
+        0.5421858134293075,
+        0.8361911131768861,
+        8.44725244627506,
+        2.869866421577144
+      ]
+    }
+  }
+]

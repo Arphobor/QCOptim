@@ -1,0 +1,228 @@
+[
+  {
+    "NN_stats": {
+      "Saved_at": "2025.03.04: 06:23:48",
+      "N_updates_this_iteration": 25000,
+      "training_iteration": 0,
+      "iteration_starting_time": "2025.03.03: 18:29:57",
+      "current_success_rate": 0.755,
+      "total_training_steps": 25000,
+      "total_training_time_/hours": 11.897653405555555,
+      "fresh_start": true,
+      "previous_training_steps": 0,
+      "previous_training_time_/hours": 0,
+      "threshold_min_met_at": false,
+      "scaling_min_met_at": false,
+      "git_branch": "Bitwise_Prevactions",
+      "git_hash": "28375882c0c53cb999d7bc3a28dd05a6519f3c69",
+      "goal": "Try to train to 6 qubits to compare results to those with loading from agent weights on 5 qubits",
+      "evaluation": "EDIT IN AFTER TRAINING DONE"
+    },
+    "Perftest": {
+      "current_time": "2025.03.16: 17:44:52",
+      "N_episodes": 1000,
+      "seperabilities": [
+        [
+          5,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          1,
+          3
+        ],
+        [
+          1,
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "fidelity_mean": [
+        0.7779982863748687,
+        0.8261459980121244,
+        0.8066260798219567,
+        0.8207309056611123,
+        0.8865320797378896,
+        0.996749843352854
+      ],
+      "fidelity_tol": [
+        0.1498010132730947,
+        0.2919523160150662,
+        0.2614527776333847,
+        0.2668314956467442,
+        0.19154903375336993,
+        0.0829401924743999
+      ],
+      "outlier_fraction": [
+        0.019,
+        0.007,
+        0.013,
+        0.012,
+        0.014,
+        0.006
+      ],
+      "fid_mean_no_outlier": [
+        0.7864136085924207,
+        0.8306937107132667,
+        0.8144046663000197,
+        0.8285105259036701,
+        0.8929209934011771,
+        0.9999999999992498
+      ],
+      "fid_tol_no_outlier": [
+        0.08417437911005124,
+        0.2739986199672168,
+        0.22821180222793502,
+        0.2316894092790534,
+        0.16144603881368683,
+        2.237775818867404e-12
+      ],
+      "loss_mean": 0.11715759891099564,
+      "mean_N_cnot": [
+        5.998,
+        5.778,
+        4.751,
+        3.7,
+        0.782,
+        0.122
+      ],
+      "tol_N_cnot": [
+        0.12048573631762395,
+        1.6270543071993633,
+        3.7857013071773102,
+        4.767286651335327,
+        3.3830700007442944,
+        1.116460548777251
+      ]
+    }
+  },
+  {
+    "NN_stats": {
+      "Saved_at": "2025.03.04: 06:23:48",
+      "N_updates_this_iteration": 25000,
+      "training_iteration": 0,
+      "iteration_starting_time": "2025.03.03: 18:29:57",
+      "current_success_rate": 0.755,
+      "total_training_steps": 25000,
+      "total_training_time_/hours": 11.897653405555555,
+      "fresh_start": true,
+      "previous_training_steps": 0,
+      "previous_training_time_/hours": 0,
+      "threshold_min_met_at": false,
+      "scaling_min_met_at": false,
+      "git_branch": "Bitwise_Prevactions",
+      "git_hash": "28375882c0c53cb999d7bc3a28dd05a6519f3c69",
+      "goal": "Try to train to 6 qubits to compare results to those with loading from agent weights on 5 qubits",
+      "evaluation": "EDIT IN AFTER TRAINING DONE"
+    },
+    "Perftest": {
+      "current_time": "2025.03.20: 18:58:27",
+      "N_episodes": 1000,
+      "seperabilities": [
+        [
+          5,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          1,
+          3
+        ],
+        [
+          1,
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "fidelity_mean": [
+        0.7754682347202413,
+        0.8331551970729267,
+        0.8091217383102944,
+        0.8274084375262734,
+        0.8886546112424082,
+        0.9976103340758453
+      ],
+      "fidelity_tol": [
+        0.16588244741640287,
+        0.2951479122313089,
+        0.2522268361619339,
+        0.25594880376233253,
+        0.18960130299064756,
+        0.07316718353078482
+      ],
+      "outlier_fraction": [
+        0.019,
+        0.009,
+        0.011,
+        0.008,
+        0.009,
+        0.004
+      ],
+      "fid_mean_no_outlier": [
+        0.7851631614940695,
+        0.8392006582194604,
+        0.8153286346315496,
+        0.832368453254314,
+        0.8928923599908966,
+        0.9999999999992837
+      ],
+      "fid_tol_no_outlier": [
+        0.09017774501986071,
+        0.27038558115519884,
+        0.22635463506080852,
+        0.23415042137973663,
+        0.1676781285997913,
+        1.8277023434533616e-12
+      ],
+      "loss_mean": 0.1149999491628331,
+      "mean_N_cnot": [
+        6.0,
+        5.815,
+        4.81,
+        3.583,
+        0.766,
+        0.099
+      ],
+      "tol_N_cnot": [
+        0.0,
+        1.399028668719837,
+        3.770750166797052,
+        4.765423494380746,
+        3.331546246412317,
+        0.962858304406209
+      ]
+    }
+  }
+]
